@@ -26,9 +26,9 @@ const CreateAdForm = () => {
     }
 
     const inititalValues = {
-        heading1: 'heading1',
-        heading2: 'heading2',
-        description: 'description',
+        heading1: '',
+        heading2: '',
+        description: '',
         bussiness_name: '',
         button_label: '',
         website_url: '',
