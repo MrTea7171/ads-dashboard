@@ -34,12 +34,11 @@ const App = () => {
                                 element={<LazyCreateAdForm />}
                             ></Route>
                         </Route>
-
-                        <Route path="*" element={<LazyPage404 />}></Route>
                         <Route
                             path="/pagenotfound"
                             element={<LazyPage404 />}
                         ></Route>
+                        <Route path="*" element={<LazyPage404 />}></Route>
                     </Routes>
                 </AnimatePresence>
             </Suspense>
