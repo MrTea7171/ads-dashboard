@@ -36,7 +36,10 @@ const App = () => {
                         </Route>
 
                         <Route path="*" element={<LazyPage404 />}></Route>
-                        <Route path="/404" element={<LazyPage404 />}></Route>
+                        <Route
+                            path="/pagenotfound"
+                            element={<LazyPage404 />}
+                        ></Route>
                     </Routes>
                 </AnimatePresence>
             </Suspense>
